@@ -21,7 +21,10 @@ pip install requirements.txt
 ```
 
 ## Usage 
-
+<p align="center">
+  <img src="https://github.com/moonjae/naver-cafe-auto-email/blob/master/Usage_Screetshot_Img/search.png" width="350"/>
+  <img src="https://github.com/moonjae/naver-cafe-auto-email/blob/master/Usage_Screetshot_Img/email.png" width="350"/>
+</p>
 
 
 
