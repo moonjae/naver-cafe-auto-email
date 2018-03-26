@@ -11,7 +11,9 @@ pip install requirements.txt
 ## Instructions
 
 *Set .secrets folder at the same level as account and config folders
+
 *Add secrets.json file to the folder 
+
 *
 
 
@@ -26,6 +28,7 @@ pip install requirements.txt
 ## Built With
 
 * [Pycharm](https://www.jetbrains.com/pycharm/) 
+* Django 
 
 
 
