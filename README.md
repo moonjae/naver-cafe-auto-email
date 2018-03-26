@@ -11,14 +11,22 @@ pip install requirements.txt
 ## Instructions
 
 *Set .secrets folder at the same level as account and config folders
-
 *Add secrets.json file to the folder 
+*The json file should resemble something like below
 
-*
+```
+{
+  "SECRET_KEY": "**************************************'"
+}
+```
+
+## Usage 
 
 
 
-### Limitations 
+
+## Limitations 
+* This application uses selenium module when scraping the Naver IDs so it takes quite a bit of time when attempting to scrape multiple post board pages. 
 
 
 
@@ -29,6 +37,7 @@ pip install requirements.txt
 
 * [Pycharm](https://www.jetbrains.com/pycharm/) 
 * Django 
+
 
 
 
