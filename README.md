@@ -23,8 +23,17 @@ pip install requirements.txt
 ## Usage 
 <p align="center">
   <img src="https://github.com/moonjae/naver-cafe-auto-email/blob/master/Usage_Screetshot_Img/search.png" width="600"/>
+</p>
+*Cafe Search View 
+The search bar accepts an url of Naver Cafes and the url is used to scrape the IDs. Then, the view creates Account objects, using the Ids.
+
+<p align="center">
   <img src="https://github.com/moonjae/naver-cafe-auto-email/blob/master/Usage_Screetshot_Img/email.png" width="600"/>
 </p>
+*Cafe List View 
+This view contains both email send form and list of Naver Cafe urls. When all the components of the email sending for mis filled out, by clicking a submit button below each url, you can sned emails to members of a designated Cafe via SMTP. Clicking one of the hyperlinked url will redirect you to another view that shows the list of Naver IDs.
+
+
 
 
 
