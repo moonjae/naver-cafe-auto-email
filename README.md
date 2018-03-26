@@ -27,6 +27,7 @@ pip install requirements.txt
 *Cafe Search View 
 The search bar accepts an url of Naver Cafes and the url is used to scrape the IDs. Then, the view creates Account objects, using the Ids.
 
+
 <p align="center">
   <img src="https://github.com/moonjae/naver-cafe-auto-email/blob/master/Usage_Screetshot_Img/email.png" width="600"/>
 </p>
