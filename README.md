@@ -20,6 +20,11 @@ pip install requirements.txt
 }
 ```
 
+*Run it on local server
+```
+python manage.py runserver
+```
+
 ## Usage 
 <p align="center">
   <img src="https://github.com/moonjae/naver-cafe-auto-email/blob/master/Usage_Screetshot_Img/search.png" width="600"/>
