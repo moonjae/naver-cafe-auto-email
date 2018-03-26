@@ -1,0 +1,21 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+<form action="{% url 'email-send' %}" method="POST">
+    {% csrf_token %}
+    <div><label for="email_address">email주소</label><input type="text" name="email_address"></div>
+    <div><label for="password">비밀번호</label><input type="text" name="password"></div>
+    <div><label for="subject">제목</label><input type="text" name="subject" size="50"></div>
+    <div><label for="message">본문</label><input type="text" name="message" size="200"></div>
+    {% for cafe in cafes %}
+    <ul>
+        <a href="{% url 'account-list' pk=cafe.pk %}">
+            <li>{{ cafe }}</li>
+            <button type="submit" name="submit" value="{{ cafe.pk }}">이메일 보내기</button>
+        </a>
+    </ul>
+    {% endfor %}
+
+</form>
+{% endblock %}

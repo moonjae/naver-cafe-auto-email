@@ -1,0 +1,13 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+<div>
+    <h3>네이버계정 크롤링</h3>
+    <form action="{% url 'add-accounts' %}" method="POST">
+        {% csrf_token %}
+        <label for="url">url을 입력하세요</label><input type="text" name="url">
+        <button type="submit">시작!</button>
+    </form>
+</div>
+{% endblock %}
